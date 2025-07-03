@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class cameraController : MonoBehaviour
 {
@@ -6,34 +7,36 @@ public class cameraController : MonoBehaviour
     [SerializeField] int lockVertMin, lockVertMax;
     [SerializeField] bool invertY;
 
+    InputAction lookAction;
+
     float rotX;
 
     void Start()
     {
+        lookAction = InputSystem.actions.FindAction("Player/Look");
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * sens * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * sens * Time.deltaTime;
+        Vector2 mouse = lookAction.ReadValue<Vector2>() * sens * Time.deltaTime;
 
         if (invertY)
         {
 
-            rotX += mouseY;
+            rotX += mouse.y;
 
         }
         else
         {
-            rotX -= mouseY;
+            rotX -= mouse.y;
         }
 
         rotX = Mathf.Clamp(rotX, lockVertMin, lockVertMax);
 
         transform.localRotation = Quaternion.Euler(rotX, 0, 0);
 
-        transform.parent.Rotate(Vector3.up * mouseX);
+        transform.parent.Rotate(Vector3.up * mouse.x);
     }
 }

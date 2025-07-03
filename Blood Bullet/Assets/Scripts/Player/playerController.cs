@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     [SerializeField] int jumpMax;
     int jumpCount;
 
-    Vector3 moveDir;
+    Vector3 moveDirection;
     Vector3 playerVel;
 
     [SerializeField] float shootDamage;
@@ -20,10 +21,49 @@ public class NewMonoBehaviourScript : MonoBehaviour
     [SerializeField] float shootDist;
     float shootTimer;
 
+    InputAction moveAction;
+    InputAction sprintKey;
+    InputAction jumpKey;
+    InputAction shootKey;
 
     void Start()
     {
+        moveAction = InputSystem.actions.FindAction("Player/Move");
+        sprintKey = InputSystem.actions.FindAction("Player/Sprint");
+        jumpKey = InputSystem.actions.FindAction("Player/Jump");
+        shootKey = InputSystem.actions.FindAction("Player/Attack");
         speed = walkSpeed;
+    }
+
+    public void OnMove(InputValue value)
+    {
+        moveDirection = value.Get<Vector2>();
+    }
+
+    public void OnJump()
+    {
+        if (jumpCount < jumpMax)
+        {
+            playerVel.y = jumpVel;
+            jumpCount++;
+        }
+    }
+
+    void sprint()
+    {
+        if (sprintKey.IsPressed())
+        {
+            if (speed != sprintSpeed)
+            {           
+                speed = sprintSpeed;
+            }
+        } else
+        {
+            if (speed != walkSpeed)
+            {
+                speed = walkSpeed;
+            }
+        }
     }
 
     void movement()
@@ -34,61 +74,37 @@ public class NewMonoBehaviourScript : MonoBehaviour
             jumpCount = 0;
         }
 
-        moveDir = (Input.GetAxis("Horizontal") * transform.right) + (Input.GetAxis("Vertical") * transform.forward);
-
         sprint();
 
-        controller.Move(moveDir * speed * Time.deltaTime);
+        Vector3 moveDir = (moveDirection.x * transform.right) + (moveDirection.y * transform.forward);
 
-        jump();
+        controller.Move(moveDir * speed * Time.deltaTime);
 
         controller.Move(playerVel * Time.deltaTime);
         playerVel.y -= gravity * Time.deltaTime;
     }
 
-    void jump()
-    {
-        if (Input.GetButtonDown("Jump") && jumpCount < jumpMax)
-        {
-            playerVel.y = jumpVel;
-            jumpCount++;
-        }
-    }
-
-    void sprint()
-    {
-        if (Input.GetButtonDown("Sprint"))
-        {
-            speed = sprintSpeed;
-        } else if (Input.GetButtonUp("Sprint"))
-        {
-            speed = walkSpeed;
-        }
-    }
-
     void shoot()
     {
+
+        if (!(shootKey.triggered && shootTimer > shootRate)) return;
+
         shootTimer = 0;
-        
+
         RaycastHit hit;
-        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, shootDist))
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, shootDist, ~ignoreLayer))
         {
-            Debug.Log(hit.collider.name);
-            if (hit.collider.GetComponent<IDamage>() != null)
+            if (hit.collider != null && hit.collider.GetComponent<IDamage>() != null)
             hit.collider.GetComponent<IDamage>().takeDamage(shootDamage);
         }
     }
 
     void tick()
     {
-        Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward * shootDist, Color.blue, ~ignoreLayer);
         movement();
 
-        if (Input.GetButton("Fire1") && shootTimer > shootRate)
-        {
-            shoot();
-        }
-
+        Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward * shootDist, Color.blue);
+        shoot();
         shootTimer += Time.deltaTime;
     }
 

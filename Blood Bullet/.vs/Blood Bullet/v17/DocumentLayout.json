@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\assets\\scripts\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\assets\\scripts\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,20 +30,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "enemyAI.cs",
               "DocumentMoniker": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\enemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\enemyAI.cs",
               "ToolTip": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\enemyAI.cs",
               "RelativeToolTip": "Assets\\Scripts\\enemyAI.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAmwBgAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T00:24:10.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IDamage.cs",
               "DocumentMoniker": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\IDamage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\IDamage.cs",
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\playerController.cs",
               "ToolTip": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Player\\playerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\playerController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAkwFsAAAAlAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAADIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T23:58:21.694Z",
               "EditorCaption": ""
@@ -75,7 +75,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\cameraController.cs",
               "ToolTip": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Player\\cameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\cameraController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T23:56:32.096Z",
               "EditorCaption": ""
