@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\assets\\scripts\\player\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\assets\\scripts\\entities\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entities\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|d:\\documents\\schoolwork\\pap2\\bloodbullet\\blood bullet\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\assets\\scripts\\entities\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entities\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\assets\\scripts\\entities\\player\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entities\\player\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\assets\\scripts\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\assets\\scripts\\buttonfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|d:\\documents\\schoolwork\\pap2\\bloodbullet\\blood bullet\\assets\\scripts\\entities\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entities\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\assets\\scripts\\entities\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99AC84B-6BD1-8418-563F-770A25FB8026}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entities\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,54 +42,92 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "enemyAI.cs",
-              "DocumentMoniker": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\enemyAI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\enemyAI.cs",
-              "ToolTip": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\enemyAI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\enemyAI.cs",
+              "DocumentIndex": 6,
+              "Title": "IDamage.cs",
+              "DocumentMoniker": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Entities\\IDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\IDamage.cs",
+              "ToolTip": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Entities\\IDamage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entities\\IDamage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T00:24:10.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T23:00:47.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IDamage.cs",
-              "DocumentMoniker": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\IDamage.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\IDamage.cs",
-              "ToolTip": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\IDamage.cs",
-              "RelativeToolTip": "Assets\\Scripts\\IDamage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "DocumentIndex": 5,
+              "Title": "enemyAI.cs",
+              "DocumentMoniker": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Entities\\enemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\enemyAI.cs",
+              "ToolTip": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Entities\\enemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entities\\enemyAI.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAmwAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T00:07:05.968Z",
+              "WhenOpened": "2025-07-04T23:00:47.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "playerController.cs",
-              "DocumentMoniker": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Player\\playerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\playerController.cs",
-              "ToolTip": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Player\\playerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\playerController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Title": "damage.cs",
+              "DocumentMoniker": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Entities\\damage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\damage.cs",
+              "ToolTip": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Entities\\damage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entities\\damage.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwAwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T23:58:21.694Z",
+              "WhenOpened": "2025-07-04T23:00:45.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "cameraController.cs",
-              "DocumentMoniker": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Player\\cameraController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\cameraController.cs",
-              "ToolTip": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Player\\cameraController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\cameraController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBwAAAAAAAAA",
+              "Title": "playerController.cs",
+              "DocumentMoniker": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Entities\\Player\\playerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\Player\\playerController.cs",
+              "ToolTip": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Entities\\Player\\playerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entities\\Player\\playerController.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAcwG0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T23:56:32.096Z",
+              "WhenOpened": "2025-07-04T23:00:42.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "cameraController.cs",
+              "DocumentMoniker": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Entities\\Player\\cameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\Player\\cameraController.cs",
+              "ToolTip": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\Entities\\Player\\cameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entities\\Player\\cameraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:00:41.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "gameManager.cs",
+              "DocumentMoniker": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\gameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\gameManager.cs",
+              "ToolTip": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\gameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\gameManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T22:57:09.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "buttonFunctions.cs",
+              "DocumentMoniker": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\buttonFunctions.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\buttonFunctions.cs",
+              "ToolTip": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Assets\\Scripts\\buttonFunctions.cs",
+              "RelativeToolTip": "Assets\\Scripts\\buttonFunctions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T22:55:14.183Z",
               "EditorCaption": ""
             }
           ]

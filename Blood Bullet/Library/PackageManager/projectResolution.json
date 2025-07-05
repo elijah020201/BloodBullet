@@ -10,6 +10,16 @@
     "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Packages\\com.merry-yellow.code-assist\\package.json"
   ],
   "outputs": {
+    "com.unity.ai.navigation@2.0.8": {
+      "name": "com.unity.ai.navigation",
+      "displayName": "AI Navigation",
+      "resolvedPath": "D:\\Documents\\schoolwork\\pap2\\BloodBullet\\Blood Bullet\\Library\\PackageCache\\com.unity.ai.navigation@eb5635ad590d",
+      "fingerprint": "eb5635ad590d47cef2a5c920d9475cc222db3f67",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "2.0.8",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.collab-proxy@2.8.2": {
       "name": "com.unity.collab-proxy",
       "displayName": "Version Control",
